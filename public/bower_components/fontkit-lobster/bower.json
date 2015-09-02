@@ -1,0 +1,23 @@
+{
+  "name": "fontkit-lobster",
+  "version": "0.0.1",
+  "homepage": "https://github.com/stones/bower-lobster",
+  "authors": [
+    "Tom Stones <tom@tomstones.com.au>"
+  ],
+  "description": "A webfont kit for the popular Lobster font.",
+  "main": "styles/lobster.css",
+  "keywords": [
+    "lobster",
+    "fontkit",
+    "cursive"
+  ],
+  "license": "DBAD",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
