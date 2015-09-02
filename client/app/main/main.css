@@ -1,0 +1,50 @@
+.thing-form {
+    margin: 20px 0;
+}
+
+#banner {
+    border-bottom: none;
+    margin-top: -40px;
+}
+
+#banner h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    color: #e0eff2;
+    text-shadow: -1px 1px 0 #f7941d, -2px 2px 0 #0a0e27;
+}
+
+.hero-unit {
+    position: relative;
+    padding: 30px 15px;
+    color: #F5F5F5;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    background: #354458;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 70px;
+    border-top: 1px solid #354458;
+}
+
+.scale-image {
+    max-height:60%;
+    max-width:75%;
+    margin:auto;
+    display:block;
+    border-width:10px;
+    border-color:#f7941d;
+    border-right-style:solid;
+    border-bottom-style:solid;
+}
+
+.small-image {
+    height: 50px;
+}
+
+.home-image {
+    height: 30px;
+}

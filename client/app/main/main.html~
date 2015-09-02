@@ -1,0 +1,44 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+
+<header class="hero-unit" id="banner">
+  <div class="container">
+    <h1>A to Z Unlimited, Inc. </h1>
+    <p class="lead" text-color="white">Professional Graphic Installations</p>
+    <img src="assets/images/2012-10-25_11-51-12_971.jpg" alt="Oops! Not Today" class="scale-image">
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <h3 class="page-header">Information, Specialties, and Feedback:</h3>
+      <ul class="nav nav-tabs nav-stacked col-md-4 col-lg-4 col-sm-6" ng-repeat="thing in awesomeThings">
+        <li><a href="#" tooltip="{{thing.info}}">{{thing.name}}</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <form class="thing-form">
+    <label>Have you had work done by A to Z Unlimited?</label>
+    <p class="input-group">
+      <input type="text" class="form-control" placeholder="Let us know what you thought." ng-model="newThing">
+      <span class="input-group-btn">
+        <button type="submit" class="btn btn-primary" ng-click="addThing()">Submit</button>
+      </span>
+    </p>
+  </form>
+</div>
+
+<footer class="footer">
+  <div class="container">
+      <p>| A to Z Unlimited Graphic Installations |
+        <a href="mailto:atozunlim@aol.com">E-Mail</a> |
+        <em>Phone</em>: 914.584.1159 |
+        <em>Fax</em>: 914.665.7827 | 
+      </p>
+      <p>| <img src="assets/images/pdaa_certified_logo.png" class="small-image" alt="Oops! Not Today"> |
+	<img src="assets/images/3M_CertGIC-1.jpg" class="small-image" alt="Oops! Not Today"> | 
+	<img src="assets/images/uasg_logo.jpg" class="small-image" alt="Oops! Not Today"> |
+	<img src="assets/images/sgia_logo.gif" class="small-image" alt="Oops! Not Today"> |
+  </div>
+</footer>
